@@ -9,7 +9,7 @@ public class Matrice {
     public static void main(String[] args) throws FileNotFoundException {
 
         Scanner input = new Scanner(new File("matrix.txt"));
-
+        
         int rows = 0;
         int columns = 1;
         while (input.hasNextLine()) {
